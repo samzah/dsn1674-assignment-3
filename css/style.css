@@ -1,18 +1,17 @@
 html {
     background-color: #999;
     font-family: 'Slabo 13px', serif;
+    text-align: center;
 }
 
 h1{
   font-weight: normal;
-  font-size: 3rem;
+  font-size: 4rem;
   font-style: italic;
   text-decoration: underline;
   font-family: 'Righteous', cursive;
   line-height: 1.5;
   color: #FFAB00;
-  text-align: center
-  ;
 }
 
 h2{
@@ -24,19 +23,20 @@ h2{
   color: #FFAB00;
 }
 
-nav{
-    text-align: center;
-}
-
-blockquote{
-    text-align: center;
-}
-
 ol {
   list-style-type: none; /* none, decimal, lower-roman, lower alpha, disc, circle, square */
   padding: 0;
   line-height: 1.5; /* multiplier */
   color: #fff;
+  font-size: 1rem;
+}
+
+blockquote{
+  font-size: 1.5rem;
+}
+
+dl{
+    line-height: 2.0;
 }
 
 a {
