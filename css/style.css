@@ -1,6 +1,7 @@
 html {
     background-color: #999;
     font-family: 'Slabo 13px', serif;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -24,19 +25,28 @@ h2{
 }
 
 ol {
-  list-style-type: none; /* none, decimal, lower-roman, lower alpha, disc, circle, square */
+  list-style-type: lower-alpha;
   padding: 0;
-  line-height: 1.5; /* multiplier */
-  color: #fff;
+  line-height: 1.5;
   font-size: 1rem;
+}
+
+dl{
+  list-style-type: decimal;
 }
 
 blockquote{
   font-size: 1.5rem;
+  color: white;
+}
+
+figcaption{
+  font-size:1.5;
+  font-style: italic;
 }
 
 dl{
-    line-height: 2.0;
+    line-height: 1.5;
 }
 
 a {
