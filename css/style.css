@@ -1,51 +1,42 @@
 html {
-    background-color: #566989;
+    background-color: #999;
+    font-family: 'Slabo 13px', serif;
 }
-
-/*text-align: center;*/
-
 
 h1{
   font-weight: normal;
   font-size: 3rem;
   font-style: italic;
   text-decoration: underline;
-  font-family: 'Electrolize', sans-serif;
+  font-family: 'Righteous', cursive;
   line-height: 1.5;
-  color: #BA9B7B;
+  color: #FFAB00;
+  text-align: center
+  ;
 }
-
 
 h2{
   font-weight: normal;
   font-size: 2rem;
   text-decoration: none;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Righteous', serif;
   line-height: 1.5;
-  color: #3B2F10;
+  color: #FFAB00;
 }
 
+nav{
+    text-align: center;
+}
+
+blockquote{
+    text-align: center;
+}
 
 ol {
   list-style-type: none; /* none, decimal, lower-roman, lower alpha, disc, circle, square */
   padding: 0;
   line-height: 1.5; /* multiplier */
-}
-
-
-.hot {
-  color: blue;
-  font-weight: bold;
-}
-
-.bold {
-  color: blue;
-  font-weight: bold;
-}
-
-.ugly {
-  color: blue;
-  font-weight: bold;
+  color: #fff;
 }
 
 a {
@@ -53,5 +44,5 @@ a {
 }
 
 a:hover {
-  color: blue
+  color: white
 }
